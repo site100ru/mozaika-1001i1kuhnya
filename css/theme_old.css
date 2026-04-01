@@ -1,0 +1,1339 @@
+/*** ALL ***/
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../fonts/Gilroy/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: HelveticaNeueCyr-Thin;
+    src: url(../fonts/Helvetica/HelveticaNeueCyr-Thin.ttf);
+}
+
+@font-face {
+    font-family: HelveticaNeueCyr-Light;
+    src: url(../fonts/Helvetica/HelveticaNeueCyr-Light.ttf);
+}
+
+@font-face {
+    font-family: HelveticaNeueCyr-Medium;
+    src: url(../fonts/Helvetica/HelveticaNeueCyr-Medium.ttf);
+}
+
+@font-face {
+    font-family: HelveticaNeueCyr-Roman;
+    src: url(../fonts/Helvetica/HelveticaNeueCyr-Roman.ttf);
+}
+
+@font-face {
+    font-family: HelveticaNeueCyr-Roman;
+    src: url(../fonts/Helvetica/HelveticaNeueCyr-Roman.ttf);
+}
+
+@font-face {
+    font-family: HelveticaNeueCyr-Bold;
+    src: url(../fonts/Helvetica/HelveticaNeueCyr-Bold.ttf);
+}
+
+h1 {
+	font-size: 3.25rem;
+}
+
+p, .single-product-section li {
+	font-family: HelveticaNeueCyr-Light;
+	font-size: 20px;
+	/* font-size: 1.125rem; */
+	color: #323232;
+}
+
+:root {
+	--corporate-color-1: #F49200;
+	--corporate-color-2: #291C73;
+}
+
+.text-corporate-color-1 {
+	color: var(--corporate-color-1);
+}
+
+.text-corporate-color-2 {
+	color: var(--corporate-color-2);
+}
+
+.product_title {
+	font-family: HelveticaNeueCyr-Bold;
+	font-size: 30px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	/* padding-top: 75px; */
+}
+/*** END ALL ***/
+
+
+/*** BUTTONS ***/
+.btn-lg {
+    line-height: 2;
+}
+
+.btn-corporation-orange {
+	color: #ffffff;
+    background-color: #f49100;
+    border-color: #f49100;
+	font-family: HelveticaNeueCyr-Roman;
+    font-size: 16px;
+	/*height: 40px;*/
+}
+
+.btn-corporation-orange:hover {
+    color: #ffffff;
+    background-color: #d17c00;
+    border-color: #d17c00;
+}
+
+.btn-corporation-orange:active {
+    color: #ffffff;
+    background-color: #b16a01;
+    border-color: #b16a01;
+}
+
+.btn-corporation-orange:focus {
+	box-shadow: 0 0 1px 3px rgba(209,124,0,.5);
+}
+
+.btn-corporate-color-1-outline {
+    color: #f49100;
+    background-color: none;
+    border-color: #f49100;
+	font-family: HelveticaNeueCyr-Roman;
+	font-size: 16px;
+}
+
+.btn-corporate-color-1-outline:hover {
+    color: #ffff;
+    background-color: #f49100;
+    border-color: #f49100;
+	font-family: HelveticaNeueCyr-Roman;
+	font-size: 16px;
+}
+
+/**/
+.btn-corporate-color-1-outline:active {
+    background-color: #d17c00;
+}
+
+.btn-corporate-color-1-outline:focus {
+    box-shadow: 0 0 1px 3px rgba(209,124,0,.5);
+}
+/*** BUTTONS ***/
+
+
+/*** MENU ***/
+.nav-contacts {
+	text-align: right;
+}
+
+.nav-tel {
+	color: #26136d;
+	transition: .25s;
+	/* -webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white; */
+	font-weight: 800;
+	font-size: 1.25rem;
+	/* text-shadow: 2px 2px 5px rgba(0,0,0,.5); */
+}
+
+.nav-tel:hover {
+	color: #102a83;
+}
+
+#navbar-brand {
+	/* Logo height in menu must have 70px */
+	height: 60px;
+	/* width: auto; */
+	/* width: 100%;
+	max-width: 150px; */
+	transition: .5s;
+}
+
+
+.scroll-point {
+	position: relative;
+	top: -75px;
+}
+
+#top-menu {
+	background: #f49100;
+}
+
+#top-menu .nav-link {
+	font-size: .85rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: rgba(38,19,109,.75);
+}
+
+#top-menu .nav-link:hover {
+	color: rgba(38,19,109,1);
+}
+
+#top-menu .nav-link.active {
+	font-weight: 700;
+}
+/*** END MENU ***/
+
+
+/*** HEADERS ***/
+header {
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+}
+
+/* Высота header */
+header > .container > .row {
+	min-height: 600px;
+}
+
+/* Header parallax */
+header .parallax {
+	min-height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 800px;
+	background: url(images/header-bg.jpg) center no-repeat;
+	background-size: cover;
+	z-index: -1;
+	display: block;
+} /* End Header parallax */
+
+.parallax-2 {
+	min-height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: -150px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -1;
+	display: block;
+}
+
+/* */
+.header-parallax {
+	background-image: url(../images/header-bg.webp);
+}
+
+.header-archive-products,
+.header-archive-kitchens {
+	background-image: url(../images/header-bg.webp);
+}
+
+.header-archive-closets {
+	background-image: url(../images/header-archive-closets-bg.webp);
+}
+
+.header-archive-kitchen-corners {
+	background-image: url(../images/header-archive-kitchen-corners-bg.webp);
+}
+
+.header-archive-lunch-groups {
+	background-image: url(../images/header-archive-lunch-groups-bg.webp);
+}
+
+.header-archive-bedrooms {
+	background-image: url(../images/header-archive-bedrooms-bg.webp);
+}
+
+.header-archive-hallways {
+	background-image: url(../images/header-archive-hallways-bg.webp);
+}
+
+.header-archive-living-rooms {
+	background-image: url(../images/header-archive-living-rooms-bg.webp);
+}
+
+.header-archive-childrens {
+	background-image: url(../images/header-archive-childrens-bg.webp);
+}
+/*** END HEADERS ***/
+
+
+/*** SINGLE PRODUCT SECTION ***/
+.single-product-section {
+	padding-top: 85px;
+}
+
+.single-product-img {
+	width: 100%;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+}
+
+.single-product-img img {
+	width: 100%;
+	height: 100%;
+	transition: .3s all ease;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	o-object-fit: cover;
+	object-fit: cover;
+	object-position: cover;
+}
+
+.single-product-img.approximation {
+    height: 450px;
+}
+
+.single-product .approximation img {
+    width: 100%;
+    height: 100%;
+    transition: .3s all ease;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    o-object-fit: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+.single-product .approximation:hover img {
+	-webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.single-product .magnifier:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.single-product .magnifier {
+    transition: 0.35s;
+    opacity: 0;
+    position: absolute;
+    background: url(../images/icons/private-eye-magnifying-glass.png) no-repeat center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/*** END SECTION SINGLE PRODUCT ***/
+
+
+/*** SALE SECTION ***/
+.sale-section .approximation {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+	background: #f8e3cb;
+	border-color: red;
+}
+
+.sale-section .approximation.approximation-lg {
+    height: 400px;
+}
+
+.sale-section .approximation img {
+    width: 100%;
+    height: 100%;
+    transition: .3s all ease;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    o-object-fit: contain;
+    object-fit: contain;
+    object-position: center;
+	border-color: red;
+}
+
+.sale-section .approximation:hover img {
+	-webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.sale-section .card-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+	background: rgba(0,0,0,.125);
+    cursor: pointer;
+	border-color: red;
+	transition: .35s;
+}
+
+.sale-section .card-wrapper:hover {
+	background: rgba(0,0,0,0);
+}
+
+.sale-section .card-wrapper h2 {
+	font-family: Gilroy-Bold;
+	font-size: 28px;
+	color: #ffffff;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.flag {
+	background-color: #f49100;
+	color: white;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 210px;
+	height: 55px;
+	position: relative;
+	-webkit-clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%);
+	
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	top: 40px;
+	font-size: 26px;
+	font-family: HelveticaNeueCyr-Bold;
+	line-height: 30px;
+}
+
+.flag-old-price {
+	font-family: HelveticaNeueCyr-Roman;
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: line-through;
+	line-height: 24px;
+}
+
+.flag-price {
+	font-family: HelveticaNeueCyr-Bold;
+	font-size: 28px;
+	color: #ffffff;
+	line-height: 26px;
+}
+/*** END SALE SECTION ***/
+
+
+/*** ARCHIVE PORTFOLIO SECTION ***/
+.archive-portfolio-img {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+
+.archive-portfolio-img img {
+	width: 100%;
+	height: 100%;
+	transition: .3s all ease;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	o-object-fit: cover;
+	object-fit: cover;
+	object-position: cover;
+}
+/*** END ARCHIVE PORTFOLIO SECTION ***/
+
+
+/*** MAGNIFIER ***/
+.magnifier {
+    transition: 0.35s;
+    opacity: 0;
+}
+
+.magnifier:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+/*** END MAGNIFIER ***/
+
+
+/*** NAV SCROLLER ***/
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    /* height: 2.75rem; */
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+/*** END NAV SCROLLER ***/
+
+
+/*** MENU ***/
+#navbarSupportedContent2 .nav-item {
+	font-family: HelveticaNeueCyr-Medium;
+	font-size: 14px;
+}
+
+#navbarSupportedContent2 .nav-link {
+	color: #003f20;
+	text-transform: uppercase;
+}
+
+#navbarSupportedContent2 .nav-link.active {
+	color: #ff5200;
+}
+
+#navbarSupportedContent2 .nav-link:hover {
+	color: #ff5200;
+}
+/*** END MENU ***/
+
+
+/*** ARCHIVE PRODUCTS SECTION ***/
+.archive-products-section .header-description {
+	color: #ffffff;
+	font-family: HelveticaNeueCyr-Thin;
+	font-size: 30px;
+}
+
+.archive-products-section .catalog-filter .nav-link {
+	color: #000000;
+	font-family: HelveticaNeueCyr-Light;
+	font-size: 16px;
+}
+
+.archive-products-section .approximation {
+	position: relative;
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+}
+
+.archive-products-section .approximation img {
+	width: 100%;
+	height: 100%;
+	transition: .3s all ease;
+	-webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+	o-object-fit: cover;
+	object-fit: cover;
+	object-position: center;
+}
+
+.archive-products-section .approximation:hover img {
+	-webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.archive-products-section .card-wrapper {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgba(0,0,0,.25);
+	cursor: pointer;
+}
+
+.archive-products-section .woocommerce-loop-product__title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding-left: 35px;
+	padding-bottom: 20px;
+	font-family: HelveticaNeueCyr-Bold;
+	font-size: 24px;
+	color: white;
+}
+
+.shkafy-cupe-order-section h3 {
+	color: #323232;
+	font-family: Gilroy-Bold;
+	font-size: 30px;
+}
+
+.shkafy-cupe-order-section p {
+	color: #323232;
+	font-family: HelveticaNeueCyr-Light;
+	font-size: 22px;
+}
+
+.archive-products-section h3 {
+	color: #323232;
+	font-family: Gilroy-Bold;
+	font-size: 28px;
+}
+
+.archive-products-section p {
+	color: #323232;
+	font-family: HelveticaNeueCyr-Light;
+	font-size: 20px;
+}
+
+.archive-products-section .section-description {
+	font-size: 20px;
+	max-width: 850px;
+	font-family: HelveticaNeueCyr-Medium;
+	color: #323232;
+	margin: auto;
+	text-align: center;
+}
+
+/* Archive product section wijet */
+ul.product-categories {
+	padding-left: 0;
+	list-style: none;
+}
+
+h4, .widget-title {
+    font-family: HelveticaNeueCyr-Bold;
+    color: #4b4b4b;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.form-check-label, .cat-item a, .woocommerce-widget-layered-nav-list__item.wc-layered-nav-term a {
+	font-family: HelveticaNeueCyr-Roman;
+	color: #323232;
+	font-size: 16px;
+	margin-bottom: 0;
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+}
+
+.form-check-label:hover,
+.cat-item a:hover,
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term a:hover,
+.cat-item.current-cat a,
+.cat-item.current-cat span {
+	color: #f49100;
+}
+
+.woocommerce-widget-layered-nav-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.woocommerce-widget-layered-nav-list li {
+	position: relative;
+}
+
+
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term a:before,
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term a:focus:before,
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term.woocommerce-widget-layered-nav-list__item--chosen.chosen a:before {
+	content: '';
+	display: inline-block;
+	width: 18px;
+    height: 18px;
+    border: 1px solid #dddddd;
+	margin-right: 8px;
+	position: relative;
+	top: 3px;
+	
+}
+
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term a:focus:after,
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term.woocommerce-widget-layered-nav-list__item--chosen.chosen a:after {
+	content: '';
+	display: inline-block;
+    width: 10px;
+    height: 10px;
+	background-color: #f49100;
+	margin-right: 8px;
+	position: absolute;
+	left: 4px;
+    top: 7px;
+}
+
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term.woocommerce-widget-layered-nav-list__item--chosen.chosen a:focus:after,
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term.woocommerce-widget-layered-nav-list__item--chosen.chosen a:active:after {
+	opacity: 0;
+}
+/* End archive product section wijet */
+/*** END ARCHIVE PRODUCTS SECTION ***/
+
+
+/*** Bread crumbs ***/
+.breadcrumbs {
+    color: #646464;
+}
+
+.breadcrumbs img {
+    position: relative;
+    bottom: 3px;
+    transition: .25s;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+	color: #646464;
+	transition: .25s;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: none;
+	color: #f49100;
+}
+/*** End bread crumbs ***/
+
+
+/* Whatsapp button */
+.whatsapp {
+	display: none;
+}
+
+.whatsapp img {
+	position: fixed;
+	bottom: 70px;
+	right: -10px;
+	width: 90px;
+}
+/* /Whatsapp button */
+
+
+/***** Messenger 2 *****/
+.messengers-2 {
+	position: fixed;
+	width: 70px;
+	height: 70px;
+	bottom: 80px;
+	right: 0;
+	display: none;
+}
+
+#messengers-2-button {
+	background: url(images/icons/messenger.png) center;
+	background-size: contain; 
+	position: absolute;
+	background-color: #00a9ec;
+	width: 70px;
+	height: 70px;
+	z-index: 4;
+	cursor: pointer;
+}
+
+#messenger-1 {
+	position: absolute;
+	/* background: rgba(255,255,255,.5); */
+	width: 70px;
+	height: 70px;
+	z-index: 3;
+	right: 0px;
+	transition: .25s;
+}
+
+#messenger-2 {
+	position: absolute;
+	/* background: rgba(255,255,255,.5); */
+	width: 70px;
+	height: 70px;
+	z-index: 2;
+	right: 0px;
+	transition: .25s;
+}
+
+#messenger-3 {
+	position: absolute;
+	/* background: rgba(255,255,255,.5); */
+	width: 70px;
+	height: 70px;
+	z-index: 1;
+	right: 0px;
+	transition: .25s;
+}
+
+#messenger-1 img, #messenger-2 img, #messenger-3 img {
+	opacity: 0.85;
+	transition: .25s;
+	width: 125%;
+	position: absolute;
+	top: -10px;
+}
+
+#messenger-1 img:hover, #messenger-2 img:hover, #messenger-3 img:hover {
+	opacity: 1;
+}
+/***** End messenger 2 *****/
+
+
+/*** CALLBACK BUTTON ***/
+.callback-button-wrapper {
+	position: fixed;
+	bottom: 85px;
+	right: 15px;
+	z-index: 999;
+}
+
+.callback-button {
+	width: 70px;
+	height: 70px;
+	background: #ff5200;
+	border-radius: 50%;
+	animation: waves linear 2s infinite;
+	-webkit-animation: waves linear 2s infinite;
+	transition: .25s;
+	cursor: pointer;
+	padding-top: 15px;
+	padding-left: 15px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+@keyframes waves {
+	0% {
+		box-shadow: 0 0 0 0 rgba(255,82,0,.3), 0 0 0 0 rgba(255,82,0,.3), 0 0 8px 0 rgba(0,0,0,.5);
+	}
+	50% { box-shadow: 0 0 0 0 rgba(255,82,0,.15), 0 0 0 15px rgba(255,82,0,.15), 0 0 8px 0 rgba(0,0,0,.5);
+	}
+	100% {
+		box-shadow: 0 0 0 20px rgba(255,82,0,0), 0 0 0 30px rgba(255,82,0,0), 0 0 8px 0 rgba(0,0,0,.5);
+	}
+}
+
+.callback-button:hover {
+	background: #d64906;
+}
+
+.callback-button-ico {
+	width: 40px;
+	height: 40px;
+	filter: invert();
+	animation: change linear 16s infinite;
+	-webkit-animation: change linear 16s infinite;
+	-webkit-transition: transform 1s ease-in-out;
+	transition: transform 1s ease-in-out;
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@keyframes change {
+	0% {
+		background-image: url(../images/icons/callback-button-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform:rotate(0deg);
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+	1% {
+		background-image: url(../images/icons/callback-button-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		opacity: 1;
+	}
+	
+	24% {
+		background-image: url(../images/icons/callback-button-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		opacity: 1;
+	}
+	25% {
+		background-image: url(../images/icons/callback-button-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		opacity: 0;
+	}
+	26% {
+		background-image: url(../images/icons/callback-phone-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		opacity: 0;
+	}
+	27% {
+		background-image: url(../images/icons/callback-phone-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(360deg);
+		-webkit-transform:rotate(360deg);
+		-ms-transform: rotate(360deg);
+		opacity: 1;
+	}
+	49% {
+		background-image: url(../images/icons/callback-phone-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		opacity: 1;
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+	}
+	50% {
+		background-image: url(../images/icons/callback-phone-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		opacity: 0;
+	}
+	51% {
+		background-image: url(../images/icons/callback-whatsapp-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+	52% {
+		background-image: url(../images/icons/callback-whatsapp-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		opacity: 1;
+		transform: rotate(360deg);
+	}
+	74% {
+		background-image: url(../images/icons/callback-whatsapp-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		opacity: 1;
+		transform: rotate(360deg);
+	}
+	75% {
+		background-image: url(../images/icons/callback-whatsapp-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+	76% {
+		background-image: url(../images/icons/callback-telegram-ico.svg);
+		background-position:center;
+		background-repeat: no-repeat;
+		-moz-background-size: cover;
+		-webkit-background-size:cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+	77% {
+		background-image: url(../images/icons/callback-telegram-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		opacity: 1;
+	}
+	99%{
+		background-image: url(../images/icons/callback-telegram-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		opacity: 1;
+	}
+	100% {
+		background-image: url(../images/icons/callback-telegram-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+}
+
+@keyframes change2 {
+	0% {
+		background-image: url(../images/icons/callback-button-close.png);
+		background-position :center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+	50% {
+		background-image: url(../images/icons/callback-button-close.png);
+		background-position: center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		-moz-background-size:cover;
+		-webkit-background-size:cover;
+		-o-background-size:cover;
+		transform:rotate(180deg);
+		opacity:1
+	}
+}
+
+.callback-form-button {
+	width: 50px;
+	height: 50px;
+	background: #ff5200;
+	border-radius: 50%;
+	cursor: pointer;
+	padding-top: 10px;
+	padding-left: 10px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 1;
+	transition: .25s;
+}
+	
+.callback-form-button:hover {
+	background: #d64906;
+}
+	
+.callback-form-button-ico{
+	width: 30px;
+	height: 30px;
+	filter: invert();
+	background: url(../images/icons/callback-ico.svg) center no-repeat;
+	background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+}
+
+.callback-phone-button {
+	width: 50px;
+	height: 50px;
+	background: #ff5200;
+	border-radius: 50%;
+	cursor: pointer;
+	padding-top: 10px;
+	padding-left: 10px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 1;
+	transition: .25s;
+}
+	
+.callback-phone-button:hover {
+	background:#d64906
+}
+
+.callback-phone-button-ico{
+	width:30px;
+	height:30px;
+	filter:invert();
+	background:url(../images/icons/callback-phone-ico.svg) center no-repeat;
+	background-size:contain;
+	-moz-background-size:contain;
+	-webkit-background-size:contain;
+	-o-background-size: contain;
+}
+
+.callback-whatsapp-button{
+	width: 50px;
+	height: 50px;
+	background: #ff5200;
+	border-radius: 50%;
+	cursor: pointer;
+	padding-top: 10px;
+	padding-left: 10px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 1;
+	transition: .25s;
+}
+
+.callback-whatsapp-button:hover {
+	background: #d64906;
+}
+
+.callback-whatsapp-button-ico{
+	width: 30px;
+	height: 30px;
+	filter: invert();
+	background: url(../images/icons/callback-whatsapp-ico.svg) center no-repeat;
+	background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+}
+
+.callback-telegram-button {
+	width: 50px;
+	height: 50px;
+	background: #ff5200;
+	border-radius: 50%;
+	cursor: pointer;
+	padding-top: 10px;
+	padding-left:10px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 1;
+	transition: .25s;
+}
+
+.callback-telegram-button:hover {
+	background: #d64906;
+}
+
+.callback-telegram-button-ico{
+	width: 30px;
+	height:30px;
+	filter: invert();
+	background: url(../images/icons/callback-telegram-ico.svg) center no-repeat;
+	background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	-o-background-size :contain;
+}
+/*** CALLBACK BUTTON ***/
+
+
+/* Задний фон для сообщения об успешной отправки данных */
+#background-msg {
+	background: black;
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+/* Сообщение об успешной отправке данных */	
+#message {
+	z-index: 9999;
+	max-width: 450px;
+	position: fixed;
+	top: 45%;
+	left: 0%;
+	right: 0%;
+	text-align: center;
+	font-size: 130%;
+	color: white;
+	margin: auto;
+}
+
+
+@media (max-width: 575.98px) {
+	body {
+		/* padding-top: 50px; */
+	}
+	
+	h1 {
+		font-size: 2rem;
+	}
+	
+	header h2 {
+		font-size: 1.5rem;
+	}
+	
+	.header-subtitle {
+		font-family: HelveticaNeueCyr-Roman;
+		max-width: 1050px;
+		text-align: center;
+		margin: auto;
+		font-size: 1.75rem;
+	}
+	
+	.navbar-brand img {
+		height: 50px;
+	}
+	
+	.quiz-title {
+		font-size: 1rem;
+	}
+	
+	.quiz-content {
+		min-height: auto;
+	}
+	
+	/*** SHKAFY CUPE SECTIONS ***/
+	/*
+	.shkafy-cupe-header .parallax-2 {
+		min-height: 200vh;
+		background: url(images/shkafy-cupe-header-parallax.webp) 100% 25% no-repeat;
+	}*/
+	
+	.shkafy-cupe-header .header-description {
+		color: #ffffff;
+		font-family: HelveticaNeueCyr-Light;
+		font-size: 22px;
+	}
+	/*** END SHKAFY CUPE SECTIONS ***/
+	
+	
+	/* SINGLE PRODUCT SECTION */
+	.single-product-img.approximation {
+		height: 250px;
+	}
+	/* END SINGLE PRODUCT SECTION */
+	
+	
+	/*** SHKAF CUPE PORTFOLIO ***/
+	#carouselShkafCupePortfolio img {
+		height: 350px;
+	}
+	/*** END SHKAF CUPE PORTFOLIO ***/
+	
+	
+	/* ARCHIVE PRODUCTS */
+	.approximation {
+		height: 250px;
+	}
+	/* END ARCHIVE PRODUCTS */
+	
+	#homePagePortfolio .carousel-inner {
+		padding: inherit;
+	}
+	
+	#homePagePortfolio .carousel-item {
+		height: 375px;
+		text-align: center;
+		line-height: 370px;
+	}
+	
+	/* Whatsapp button*/
+	.whatsapp { display: block; }
+	
+	/* Messenger 2 */
+	.messengers-2 {
+		display: block;
+	}
+	
+}
+
+
+@media (max-width: 767.98px) {
+	/*** HEADERS ***/
+	.parallax-2 {
+		top: 50px;
+	}
+	
+	.header-archive-products,
+	.header-archive-kitchens {
+		background-position: 22% 50%;
+	}
+	
+	.header-archive-closets {
+		background-position: 40% 50%;
+	}
+	
+	.header-archive-kitchen-corners {
+		background-position: 50% 50%;
+	}
+	
+	.header-archive-lunch-groups {
+		background-position: 45% 50%;
+	}
+	
+	.header-archive-bedrooms {
+		background-position: 50% 50%;
+	}
+	
+	.header-archive-hallways {
+		background-position: 55% 50%;
+	}
+	
+	.header-archive-living-rooms {
+		background-position: 66% 50%;
+	}
+	
+	.header-archive-childrens {
+		background-position: 35% 50%;
+	}
+	/*** END HEADERS ***/
+}

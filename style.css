@@ -1,0 +1,641 @@
+/*
+Theme Name: Mozaika-1001i1kuhnya
+Template: mozaika
+*/
+
+.fs-075 {
+	font-size: .85rem;
+}
+
+.woocommerce-loop-category__title {
+	font-size: 18px;
+    line-height: 1.3;
+	margin-bottom: 1rem;
+	font-weight: 500;
+}
+
+.h2-dark {
+	border: 50px solid;
+	border-image: url(images/icons/venz-dark.png) 50 repeat;
+	display: inline-block;
+	color: #343a40;
+}
+
+.h2-yellow {
+	border: 50px solid;
+	border-image: url(images/icons/venz-yellow.png) 50 repeat;
+	display: inline-block;
+	color: #343a40;
+}
+
+.mark, mark {
+    padding: 0;
+    background-color: inherit;
+	font-weight: 300;
+}
+
+
+/* Form control corporate 2 */
+.form-control-corporate-2 {
+    display: block;
+    width: 100%;
+    padding: 0.45rem 0.75rem;
+	font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 1.5;
+    /*color: #ffe5d0;*/
+    background: none;
+    background-clip: padding-box;
+	border: 2px solid #f49100;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	margin-bottom: 20px;
+}
+
+.form-control-corporate-2:focus, .form-control-corporate-2:active, .form-control-corporate-2 :checked {
+	border: 2px solid #f49100;
+}
+/* End form control corporate 2 */
+
+
+.text-company-brown {
+	color: yellow;
+}
+
+#carouselInnerOne img {
+	height: 400px;
+	width: auto;
+}
+
+#homePagePortfolio .carousel-inner {
+	padding: 25px;
+}
+
+#homePagePortfolio .carousel-item {
+	height: 500px;
+	text-align: center;
+	line-height: 495px;
+}
+
+#homePagePortfolio .carousel-item img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+
+
+/*** HEADER ***/
+
+
+
+header h2 {
+	font-family: HelveticaNeueCyr-Medium;
+	font-size: 40px;
+}
+
+header h3 {
+	font-family: HelveticaNeueCyr-Medium;
+    font-size: 18px;
+}
+
+header h3 + p {
+	font-family: HelveticaNeueCyr-Light;
+    font-size: 18px;
+}
+
+.header-description {
+	font-family: HelveticaNeueCyr-Medium;
+    font-size: 22px;
+}
+
+.header-li-float-left {
+	width: 22%;
+	float: left;
+}
+
+.header-li-float-right {
+	width: 78%;
+	float: right;
+}
+/*** /HEADER ***/
+
+
+/* About section */
+
+/* End about section */
+
+/* Srvices section */
+.services-description {
+	font-size: 1rem;
+	min-height: 4.75rem;
+}
+
+.services-section ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+.services-section li {
+	font-size: 1rem;
+}
+.support-service-number {
+	font-size: 3rem;
+    font-weight: 800;
+    line-height: 2.25rem;
+    color: rgba(91, 112, 186, 0.5);
+}
+/* End services section */
+
+
+/*** CATALOGY ***/
+.catalog-filter a, #myTab-2 a {
+	color: black;
+	opacity: 0.65;
+	text-transform: uppercase;
+	font-size: .85rem;
+	transition: .25s;
+}
+
+.catalog-filter a:hover, #myTab-2 a:hover {
+	color: black;
+	opacity: 0.85;
+}
+
+.figure img {
+	width: 100%;
+	height: auto;
+}
+
+.wp-post-image {
+	width: 100%!important;
+	height: auto!important;
+}
+
+.project-entry a {
+	text-decoration: none;
+}
+
+.button.product_type_simple {
+	display: none;
+}
+
+
+.product-menu .nav-link {
+	font-family: HelveticaNeueCyr-Light;
+    font-size: 20px;
+	color: #646464;
+	transition: .25s;
+}
+
+.product-menu .nav-link:hover {
+	opacity: .75;
+}
+
+.product-menu .nav-link.active {
+	font-family: HelveticaNeueCyr-Medium;
+	color: #f49100;
+}
+
+.shkafy-cupe-section .approximation {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+/*** END CATALOGY ***/
+
+
+/*** SHKAF CUPE CATALOGY ***/
+.shkafy-cupe-header .header-description {
+	color: #ffffff;
+	font-family: HelveticaNeueCyr-Thin;
+	font-size: 30px;
+}
+
+.shkafy-cupe-section .catalog-filter .nav-link {
+	color: #000000;
+	font-family: HelveticaNeueCyr-Light;
+	font-size: 16px;
+}
+
+.shkafy-cupe-section .approximation {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.shkafy-cupe-section .approximation img {
+	width: 100%;
+	height: 100%;
+	transition: .3s all ease;
+	-webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+	o-object-fit: cover;
+	object-fit: cover;
+	object-position: center;
+}
+
+.shkafy-cupe-section .approximation:hover img {
+	-webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.shkafy-cupe-section .card-wrapper {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgba(0,0,0,.25);
+	cursor: pointer;
+}
+
+.shkafy-cupe-order-section h3 {
+	color: #323232;
+	font-family: Gilroy-Bold;
+	font-size: 30px;
+}
+
+.shkafy-cupe-order-section p {
+	color: #323232;
+	font-family: HelveticaNeueCyr-Light;
+	font-size: 22px;
+}
+
+.shkafy-cupe-section h3 {
+	color: #323232;
+	font-family: Gilroy-Bold;
+	font-size: 28px;
+}
+
+.shkafy-cupe-section p {
+	color: #323232;
+	font-family: HelveticaNeueCyr-Light;
+	font-size: 20px;
+}
+
+.shkafy-cupe-section .section-description {
+	font-size: 20px;
+	max-width: 850px;
+	font-family: HelveticaNeueCyr-Medium;
+	color: #323232;
+	margin: auto;
+	text-align: center;
+}
+/*** END SHKAF CUPE CATALOGY ***/
+
+
+/*** SHKAF CUPE PORTFOLIO ***/
+#carouselShkafCupePortfolio img {
+	height: 500px;
+}
+/*
+max-width: 75vw;
+max-height: 75vh;
+*/
+/*** END SHKAF CUPE PORTFOLIO ***/
+
+
+/*** ORDER SECTION ***/
+.order-section {
+	position: relative;
+	overflow: hidded;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.order-section .order-section-img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
+.order-section h2 {
+	font-family: Gilroy-Bold;
+	font-size: 30px;
+	/* color: #323232; */
+}
+
+.order-section p {
+	font-family: HelveticaNeueCyr-Light;
+	font-size: 22px;
+	color: #323232;
+}
+
+.order-section label {
+	font-family: HelveticaNeueCyr-Light;
+	font-size: 16px;
+	color: #323232;
+}
+/*** END ORDER SECTION ***/
+
+
+/*** ACTION SECTIONS ***/
+
+/* Action section */
+.action-section p {
+	font-size: 1.75rem;
+}
+/* End action section */
+
+/* Action 2 section */
+.action-2-section ul {
+	list-style: none;
+}
+/* End action 2 section */
+
+/* Action 3 section */
+.action-3-section ul {
+	list-style: none;
+	padding-left: 0;
+}
+/* End action 3 section */
+/*** END ACTION SECTIONS ***/
+
+
+/*** PORTFOLIO SECTIONS ***/
+.post-entry, .project-entry {
+  overflow: hidden;
+  position: relative;
+  display: block; }
+  .post-entry .figure, .project-entry .figure {
+    overflow: hidden;
+    margin-bottom: 20px; }
+  .post-entry h3, .project-entry h3 {
+    font-size: 18px;
+    line-height: 1.3; }
+    .post-entry h3 a, .project-entry h3 a {
+      color: #000; }
+  .post-entry img, .project-entry img {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  .post-entry:hover img, .project-entry:hover img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05); }
+	
+.figure {
+  display: inline-block; }
+  
+  .post-entry .figure, .project-entry .figure {
+    overflow: hidden;
+    margin-bottom: 20px; }
+/*** END PORTFOLIO SECTIONS ***/
+
+
+/* Advantages */
+#advantages-section-1 {
+	background: url(images/advantages/advantages-bg-1.jpg) center;
+	background-size: cover;
+}
+
+#advantages-section-2 {
+	background-color: yellow;
+}
+
+.advantages-section ul {
+	padding-left: 1.5rem;
+	font-size: 1.125rem;
+}
+/* /Advantages */
+
+/* Testimonials section */
+#carouselTestimonials {
+	min-height: 300px;
+}
+/* /Testimonials section */
+
+
+/* Quiz section */
+#quiz-container .form-check-input {
+	opacity: 0;
+	cursor: pointer;
+}
+
+#quiz-container .form-check {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-right: 0;
+    user-select: none;
+}
+
+#quiz-container label {
+    display: inline;
+}
+
+#quiz-container .quiz-title:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+	top: 1px;
+    background: url(images/icons/radio-off.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+#quiz-container label {
+	cursor: pointer;
+}
+
+.quiz-title {
+	min-height: 45px;
+	text-align: left;
+}
+
+#quiz-container input[type=radio]:checked + .quiz-title:before {
+    background: url(images/icons/radio-on.png) 0 0 no-repeat;
+}
+
+.card-img-overlay {
+	background: rgba(0,0,0,.25);
+	transition: .25s;
+}
+.card-img-overlay:hover {
+	background: rgba(0,0,0,.1);
+}
+
+.quiz-content {
+	min-height: 550px;
+}
+/* End quiz section */
+
+/* Video section */
+#video-player {
+	position: relative;
+	z-index: 1;
+}
+
+#play-circle {
+	width: 35%;
+	height: 35%;
+	background: url(images/icons/play-circle.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 32%;
+	left: 41%;
+	z-index: 999;
+}
+
+#stop-circle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 999;
+	color: rgba(255,255,255,.25);
+	display: none;
+	font-size: 50px;
+	cursor: pointer;
+	transition: .25;
+}
+
+#stop-circle:hover {
+	color: white;
+}
+
+#stop-circle i {
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+}
+
+#play {
+	width: 35%;
+	height: 35%;
+	background: url(images/icons/play.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 32%;
+	left: 21%;
+	cursor: pointer;
+	transition: .25s;
+}
+
+#play:hover {
+	width: 35%;
+	height: 35%;
+	background: url(images/icons/play-green.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 32%;
+	left: 21%;
+	cursor: pointer;
+	transition: .25s;
+}
+/* End video section */
+
+
+.contacts-section { /* Contacts section */
+	background: url(images/contacts-bg.jpg) top;
+	background-size: cover;
+	background-position: center;
+} /* End contacts-section */
+
+
+.ico-button{
+	transition: .25s;
+}
+
+.ico-button:hover {
+	opacity: 75%;
+}
+
+
+/* Quiz section */
+#quiz-container .form-check-input {
+	opacity: 0;
+	cursor: pointer;
+}
+
+#quiz-container .form-check {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-right: 0;
+    user-select: none;
+}
+
+#quiz-container label {
+    display: inline;
+}
+
+#quiz-container .quiz-title:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+	top: 1px;
+    background: url(images/icons/radio-off.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+#quiz-container label {
+	cursor: pointer;
+}
+
+.quiz-title {
+	min-height: 45px;
+	text-align: left;
+}
+
+#quiz-container input[type=radio]:checked + .quiz-title:before {
+    background: url(images/icons/radio-on.png) 0 0 no-repeat;
+}
+
+.card-img-overlay {
+	background: rgba(0,0,0,.25);
+	transition: .25s;
+}
+.card-img-overlay:hover {
+	background: rgba(0,0,0,.1);
+}
+
+.quiz-content {
+	min-height: 500px;
+}
+/* End quiz section */
+
+
+
+
+@media (max-width: 1199.98px) {
+	.nav-contacts {
+		text-align: left;
+	}
+}
+
+
+
+/* Section with parallax and scroll shadow */
+header .row_scroll-shadow {
+	background: rgba(0,0,0,.5);
+	min-height: 100vh;
+}
+header .row_parallax {
+	min-height: 100vh;
+	width: 100%;
+	position: fixed;
+	background: url(images/header-bg-2.jpg) center no-repeat;
+	background-size: cover;
+	z-index: -1;
+	display: block;
+}
