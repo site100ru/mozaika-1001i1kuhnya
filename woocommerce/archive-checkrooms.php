@@ -406,7 +406,7 @@
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/2.png" class="img-fluid">
 							</div>
 							<div class="col-10">
-								<h3>Работаем более 22 лет, с 2000 года!</h3>
+								<h3>Работаем более 26 лет, с 2000 года!</h3>
 								<!--p class="mb-0">Сделаем поясненения к нему, рассчитаем стоимость.</p-->
 							</div>
 						</div>
