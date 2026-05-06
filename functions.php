@@ -458,7 +458,6 @@
           <div class="col-md-6 mt-5">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/06-05-02.webp"
               class="w-100 mb-3 rounded">
-            class="w-100 mb-3 rounded">
             <p>При покупке 3-х предметов бытовой техники Evelux - 4-ый <strong>в подарок!</strong></p>
           </div>
           <div class="col-md-6 mt-5">
@@ -511,7 +510,6 @@
           <div class="col-md-6 mt-5">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/06-05-02.webp"
               class="w-100 mb-3 rounded">
-            class="w-100 mb-3 rounded">
             <p>При покупке 3-х предметов бытовой техники Evelux - 4-ый <strong>в подарок!</strong></p>
           </div>
           <div class="col-md-6 mt-5">
