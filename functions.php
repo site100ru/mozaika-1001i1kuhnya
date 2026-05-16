@@ -549,20 +549,3 @@
     //     return $classes;
     // }
 ?>
-
-<?php
-add_filter( 'woocommerce_attribute', 'add_mm_to_size_attributes', 10, 3 );
-
-function add_mm_to_size_attributes( $value, $attribute, $values ) {
-    $size_attributes = array( 'pa_length', 'pa_height', 'pa_depth', 'pa_width' );
-    
-    if ( in_array( $attribute->get_name(), $size_attributes ) ) {
-        $terms = explode( ', ', $value );
-        $terms_with_mm = array_map( function( $term ) {
-            return trim( $term ) . ' мм';
-        }, $terms );
-        return implode( ', ', $terms_with_mm );
-    }
-    return $value;
-}
-?>
