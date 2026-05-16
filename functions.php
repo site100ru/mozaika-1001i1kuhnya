@@ -262,8 +262,7 @@
 	function extra_fields_box_func( $post ){
 		for ($i=1; $i<=9; $i++) { ?>
 <label>URL&#160;изображения <?php echo $i; ?>:</label>
-<input type="text" name="extra[img-<?php echo $i; ?>]" value="<?php echo get_post_meta($post->ID, '_img-'.$i, 1); ?>"
-  style="width: 100%;">
+<input type="text" name="extra[img-<?php echo $i; ?>]" value="<?php echo get_post_meta($post->ID, '_img-'.$i, 1); ?>" style="width: 100%;">
 <div style="clear: both;"></div>
 <? } ?>
 <input type="hidden" name="extra_fields_nonce" value="<?php echo wp_create_nonce(__FILE__); ?>" />
@@ -443,48 +442,43 @@
 			case 1: ?>
 <!-- Actions section -->
 <section class="action-4-section bg-light py-5">
-  <div class="container">
-    <!-- container/container-fluid -->
-    <div class="row justify-content-center">
-      <div class="col">
-        <h2 class="text-uppercase text-center text-corporation-orange fw-bold">Акции и скидки</h2>
-        <div class="row justify-content-center">
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/06-05.webp" class="w-100 mb-3 rounded">
-            <p><strong>Скидки до 100%</strong>
-              при покупке комплекта техники KÖRTING. Подробности уточняйте у менеджеров магазина
-            </p>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/06-05-02.webp"
-              class="w-100 mb-3 rounded">
-            <p>При покупке 3-х предметов бытовой техники Evelux - 4-ый <strong>в подарок!</strong></p>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-from-2024-10-18-2.jpg"
-              class="w-100 mb-3 rounded">
-            <p>При заказе кухни - честная <strong>скидка&#160;5%!</strong> при 100% оплате.</p>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-img-present-moyka.jpg"
-              class="w-100 mb-4 rounded">
-            <p>При заказе кухни от 70 000 рублей - каменная мойка <strong>в&#160;подарок</strong></p>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-img-discount-30.jpg"
-              class="w-100 mb-4 rounded">
-            <p>При заказе кухни <strong>скидки до&#160;30%!</strong></p>
-          </div>
-        </div>
-        <div class="row justify-content-around">
-          <div class="col-md-4 mt-4 text-center">
-            <a href="http://1001i1kuhnya.ru/акции-и-скидки/" class="btn btn-lg btn-corporation-orange px-5 text-light"
-              type="button">Смотреть все акции</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class="container">
+		<!-- container/container-fluid -->
+		<div class="row justify-content-center">
+			<div class="col">
+				<h2 class="text-uppercase text-center text-corporation-orange fw-bold">Акции и скидки</h2>
+				<div class="row justify-content-center">
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/06-05.webp" class="w-100 mb-3 rounded">
+						<p><strong>Скидки до 100%</strong>
+							при покупке комплекта техники KÖRTING. Подробности уточняйте у менеджеров магазина
+						</p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/06-05-02.webp" class="w-100 mb-3 rounded">
+						<p>При покупке 3-х предметов бытовой техники Evelux - 4-ый <strong>в подарок!</strong></p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-from-2024-10-18-2.jpg" class="w-100 mb-3 rounded">
+						<p>При заказе кухни - честная <strong>скидка&#160;5%!</strong> при 100% оплате.</p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-img-present-moyka.jpg" class="w-100 mb-4 rounded">
+						<p>При заказе кухни от 70 000 рублей - каменная мойка <strong>в&#160;подарок</strong></p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-img-discount-30.jpg" class="w-100 mb-4 rounded">
+						<p>При заказе кухни <strong>скидки до&#160;30%!</strong></p>
+					</div>
+				</div>
+				<div class="row justify-content-around">
+					<div class="col-md-4 mt-4 text-center">
+						<a href="http://1001i1kuhnya.ru/акции-и-скидки/" class="btn btn-lg btn-corporation-orange px-5 text-light" type="button">Смотреть все акции</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- /Action section -->
 <?php break;
@@ -492,61 +486,54 @@
 			case 2: ?>
 <!-- Action section -->
 <section class="action-4-section bg-white pt-3 pb-5">
-  <div class="container">
-    <!-- container/container-fluid -->
-    <div class="row justify-content-center">
-      <div class="col">
-        <div class="row justify-content-center">
-          <!--div class="col-md-6 mt-5">
+	<div class="container">
+		<!-- container/container-fluid -->
+		<div class="row justify-content-center">
+			<div class="col">
+				<div class="row justify-content-center">
+					<!--div class="col-md-6 mt-5">
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-img-free-delivery.jpg" class="w-100 mb-3 rounded">
 										<p>При заказе  любой корпусной мебели доставка <strong>бесплатно!</strong></p>
 									</div-->
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/06-05.webp" class="w-100 mb-3 rounded">
-            <p><strong>Скидки до 100%</strong>
-              при покупке комплекта техники KÖRTING. Подробности уточняйте у менеджеров магазина
-            </p>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/06-05-02.webp"
-              class="w-100 mb-3 rounded">
-            <p>При покупке 3-х предметов бытовой техники Evelux - 4-ый <strong>в подарок!</strong></p>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-from-2024-10-18-2.jpg"
-              class="w-100 mb-3 rounded">
-            <p>При заказе кухни - честная <strong>скидка&#160;5%!</strong> при 100% оплате.</p>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-img-present-moyka.jpg"
-              class="w-100 mb-4 rounded">
-            <p>При заказе кухни от 70 000 рублей - каменная мойка <strong>в&#160;подарок</strong></p>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-img-free-parking.jpg"
-              class="w-100 mb-4 rounded">
-            <p>Нашим клиентам <strong>оплачиваем парковку</strong> в&#160;ТЦ&#160;«Малина»</p>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-img-discount-30.jpg"
-              class="w-100 mb-4 rounded">
-            <p>При заказе кухни <strong>скидки до&#160;30%!</strong></p>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-6.jpg"
-              class="w-100 mb-4 rounded">
-            <p>При заказе шкафа-купе <strong>скидка до&#160;20%!</strong></p>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-3.jpg"
-              class="w-100 mb-4 rounded">
-            <p><strong>Дополнительная скидка&#160;5%</strong> за 100% предоплату, молодожёнам и новосёлам, иногородним,
-              пенсионерам, в день рождения и юбилей. Скидка распространяется на всю корпусную мебель.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/06-05.webp" class="w-100 mb-3 rounded">
+						<p><strong>Скидки до 100%</strong>
+							при покупке комплекта техники KÖRTING. Подробности уточняйте у менеджеров магазина
+						</p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/06-05-02.webp" class="w-100 mb-3 rounded">
+						<p>При покупке 3-х предметов бытовой техники Evelux - 4-ый <strong>в подарок!</strong></p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-from-2024-10-18-2.jpg" class="w-100 mb-3 rounded">
+						<p>При заказе кухни - честная <strong>скидка&#160;5%!</strong> при 100% оплате.</p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-img-present-moyka.jpg" class="w-100 mb-4 rounded">
+						<p>При заказе кухни от 70 000 рублей - каменная мойка <strong>в&#160;подарок</strong></p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-img-free-parking.jpg" class="w-100 mb-4 rounded">
+						<p>Нашим клиентам <strong>оплачиваем парковку</strong> в&#160;ТЦ&#160;«Малина»</p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-img-discount-30.jpg" class="w-100 mb-4 rounded">
+						<p>При заказе кухни <strong>скидки до&#160;30%!</strong></p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-6.jpg" class="w-100 mb-4 rounded">
+						<p>При заказе шкафа-купе <strong>скидка до&#160;20%!</strong></p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/actions/action-3.jpg" class="w-100 mb-4 rounded">
+						<p><strong>Дополнительная скидка&#160;5%</strong> за 100% предоплату, молодожёнам и новосёлам, иногородним,
+							пенсионерам, в день рождения и юбилей. Скидка распространяется на всю корпусную мебель.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- /Action section -->
 <?php break;
@@ -561,4 +548,21 @@
     //     $classes[] = 'b-new-year';
     //     return $classes;
     // }
+?>
+
+<?php
+add_filter( 'woocommerce_attribute', 'add_mm_to_size_attributes', 10, 3 );
+
+function add_mm_to_size_attributes( $value, $attribute, $values ) {
+    $size_attributes = array( 'pa_length', 'pa_height', 'pa_depth', 'pa_width' );
+    
+    if ( in_array( $attribute->get_name(), $size_attributes ) ) {
+        $terms = explode( ', ', $value );
+        $terms_with_mm = array_map( function( $term ) {
+            return trim( $term ) . ' мм';
+        }, $terms );
+        return implode( ', ', $terms_with_mm );
+    }
+    return $value;
+}
 ?>
