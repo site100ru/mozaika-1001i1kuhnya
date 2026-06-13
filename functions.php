@@ -548,4 +548,8 @@
     //     $classes[] = 'b-new-year';
     //     return $classes;
     // }
+
+/*** АВТОМАТИЧЕСКАЯ ТРАНСЛИТЕРАЦИЯ ССЫЛОК (СЛАГОВ) НА ЛАТИНИЦУ ***/
+require_once get_stylesheet_directory() . '/inc/translate.php';
+/*** END АВТОМАТИЧЕСКАЯ ТРАНСЛИТЕРАЦИЯ ССЫЛОК НА ЛАТИНИЦУ ***/
 ?>
