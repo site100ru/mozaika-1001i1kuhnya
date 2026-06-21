@@ -264,7 +264,7 @@
 <label>URL&#160;изображения <?php echo $i; ?>:</label>
 <input type="text" name="extra[img-<?php echo $i; ?>]" value="<?php echo get_post_meta($post->ID, '_img-'.$i, 1); ?>" style="width: 100%;">
 <div style="clear: both;"></div>
-<? } ?>
+<?php } ?>
 <input type="hidden" name="extra_fields_nonce" value="<?php echo wp_create_nonce(__FILE__); ?>" />
 <?php
 	}
@@ -548,4 +548,8 @@
     //     $classes[] = 'b-new-year';
     //     return $classes;
     // }
+
+/*** АВТОМАТИЧЕСКАЯ ТРАНСЛИТЕРАЦИЯ ССЫЛОК (СЛАГОВ) НА ЛАТИНИЦУ ***/
+require_once get_stylesheet_directory() . '/inc/translate.php';
+/*** END АВТОМАТИЧЕСКАЯ ТРАНСЛИТЕРАЦИЯ ССЫЛОК НА ЛАТИНИЦУ ***/
 ?>
