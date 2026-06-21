@@ -27,8 +27,10 @@
 	$mail .= "Материал фасада: ".$answer4."\n\n";
 
 	/* Send mails */
-	mail( "1001_1@bk.ru", "Заявка на расчет шкафа-купе с сайта 1001i1kuhnya.ru", $mail );
-	mail( "vasilyev-r@mail.ru", "Заявка на расчет шкафа-купе с сайта 1001i1kuhnya.ru", $mail );
+	
+	mail( "sidorov-vv3@mail.ru", "Заявка на расчет шкафа-купе с сайта 1001i1kuhnya.ru", $mail );
+	// mail( "1001_1@bk.ru", "Заявка на расчет шкафа-купе с сайта 1001i1kuhnya.ru", $mail );
+	// mail( "vasilyev-r@mail.ru", "Заявка на расчет шкафа-купе с сайта 1001i1kuhnya.ru", $mail );
 
 	$_SESSION['win'] = 1;
 	$_SESSION['recaptcha'] = '<p>Спасибо, что Вы обратились именно к нам. Мы свяжемся с Вами в ближайшее время.</p>';
