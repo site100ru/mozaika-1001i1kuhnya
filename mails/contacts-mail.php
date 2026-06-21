@@ -21,8 +21,10 @@
 			$mes = $_POST['mes'];
 			
 			$headers = "MIME-Version: 1.0\r\n";
-			//$headers .= "From: 1001i1kuhnya.ru\r\n";
-			$headers .= "Content-type: text/html; charset=utf-8";
+			$headers .= "From: info@1001i1kuhnya.ru\r\n";
+			$headers .= "Reply-To: info@1001i1kuhnya.ru\r\n";
+			$headers .= "Return-Path: info@1001i1kuhnya.ru\r\n";
+			$headers .= "Content-type: text/html; charset=utf-8\r\n";
 			$message .= "Имя: " . $name . "<br><br>";
 			$message .= "Емаил: " . $email . "<br><br>";
 			$message .= "Телефон: " . $tel . "<br><br>";
