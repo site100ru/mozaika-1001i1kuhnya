@@ -130,7 +130,7 @@
 	} else if ( $_POST['question'] == 'question3' ) {
 		$_SESSION['answer3'] = $_POST['answer'];
 		echo '
-			<form method="post" action="https://1001i1kuhnya.ru/wp-content/themes/furniture-catalog/mails/kitchen-quiz-mail.php">
+			<form method="post" action="https://1001i1kuhnya.ru/wp-content/themes/mozaika-1001i1kuhnya/mails/kitchen-quiz-mail.php">
 				<div class="row animated fadeIn">
 					<div class="col pb-4 text-center">
 						<h3>Оставьте Ваши контакты и мы вышлем Вам рассчет</h3>
