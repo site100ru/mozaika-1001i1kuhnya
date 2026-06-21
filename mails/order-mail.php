@@ -11,8 +11,8 @@
 	$tel = $_POST['tel'];
 	
 	
-	$to      = 'sidorov-vv3@mail.ru';
-	// $to      = 'vasilyev-r@mail.ru, vasilyev-r@yandex.ru, 1001_1@bk.ru';
+	// $to      = 'sidorov-vv3@mail.ru';
+	$to      = 'vasilyev-r@mail.ru, vasilyev-r@yandex.ru, 1001_1@bk.ru';
 	$subject = $theme;
 	$message = "
 		Имя: " . $name . "<br><br>

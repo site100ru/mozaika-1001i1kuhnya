@@ -20,9 +20,9 @@
 			$tel = $_POST['tel'];	
 			
 			
-			mail( "sidorov-vv3@mail.ru", "Заявка с сайта 1001i1kuhnya.ru. Узнать стоимость.", "Имя: ".$name.". Телефон: " . $tel );
-			// mail( "vasilyev-r@mail.ru, vasilyev-r@yandex.ru, 1001_1@bk.ru", "Заявка с сайта 1001i1kuhnya.ru. Узнать стоимость.", "Имя: ".$name.". Телефон: " . $tel );
-			// mail( "1001_1@bk.ru", "Заявка с сайта 1001i1kuhnya.ru. Узнать стоимость.", "Имя: ".$name.". Телефон: " . $tel );
+			// mail( "sidorov-vv3@mail.ru", "Заявка с сайта 1001i1kuhnya.ru. Узнать стоимость.", "Имя: ".$name.". Телефон: " . $tel );
+			mail( "vasilyev-r@mail.ru, vasilyev-r@yandex.ru, 1001_1@bk.ru", "Заявка с сайта 1001i1kuhnya.ru. Узнать стоимость.", "Имя: ".$name.". Телефон: " . $tel );
+			mail( "1001_1@bk.ru", "Заявка с сайта 1001i1kuhnya.ru. Узнать стоимость.", "Имя: ".$name.". Телефон: " . $tel );
 			
 			$_SESSION['win'] = 1;
 			$_SESSION['recaptcha'] = '<p class="text-light">Спасибо, что Вы обратились именно к нам. Мы свяжемся с Вами в ближайшее время.</p>';

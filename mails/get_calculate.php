@@ -77,8 +77,8 @@
 			$mes = $_POST['mes'];
 			
 			$picture = "";
-			// $mail_to = "vasilyev-r@mail.ru, vasilyev-r@yandex.ru, 1001_1@bk.ru"; // Адрес доставки почты
-			$mail_to = "sidorov-vv3@mail.ru"; // Адрес доставки почты
+			// $mail_to = "sidorov-vv3@mail.ru"; // Адрес доставки почты
+			$mail_to = "vasilyev-r@mail.ru, vasilyev-r@yandex.ru, 1001_1@bk.ru"; // Адрес доставки почты
 			$thm = "Зявка на расчет стоимости корпусной мебели с сайта 1001i1kuhnya.ru"; // Тема письма
 			
 			

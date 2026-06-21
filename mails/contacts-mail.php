@@ -30,13 +30,13 @@
 			$message .= "Телефон: " . $tel . "<br><br>";
 			$message .= "Сообщение: " . $mes;
 		
-			mail( "sidorov-vv3@mail.ru", "Сообщение с сайта 1001i1kuhnya.ru", $message, $headers );
+			// mail( "sidorov-vv3@mail.ru", "Сообщение с сайта 1001i1kuhnya.ru", $message, $headers );
 
-			// mail( "vasilyev-r@yandex.ru", "Сообщение с сайта 1001i1kuhnya.ru", $message, $headers );
+			mail( "vasilyev-r@yandex.ru", "Сообщение с сайта 1001i1kuhnya.ru", $message, $headers );
 			
-			// mail("vasilyev-r@mail.ru", "Сообщение с сайта 1001i1kuhnya.ru.", "Потенциальный клиент с именем ".$name." оставил номер телефона: ".$tel.", адрес электронной почты: ".$email." и сообщение: ".$mes);
+			mail("vasilyev-r@mail.ru", "Сообщение с сайта 1001i1kuhnya.ru.", "Потенциальный клиент с именем ".$name." оставил номер телефона: ".$tel.", адрес электронной почты: ".$email." и сообщение: ".$mes);
 			
-			// mail("1001_1@bk.ru", "Сообщение с сайта 1001i1kuhnya.ru.", "Потенциальный клиент с именем ".$name." оставил номер телефона: ".$tel.", адрес электронной почты: ".$email." и сообщение: ".$mes);
+			mail("1001_1@bk.ru", "Сообщение с сайта 1001i1kuhnya.ru.", "Потенциальный клиент с именем ".$name." оставил номер телефона: ".$tel.", адрес электронной почты: ".$email." и сообщение: ".$mes);
 			
 			$_SESSION['win'] = 1;
 			$_SESSION['recaptcha'] = '<p class="text-light">Спасибо, что Вы обратились именно к нам. Мы свяжемся с Вами в ближайшее время.</p>';

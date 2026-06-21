@@ -30,8 +30,8 @@
 			//mail( "vasilyev-r@mail.ru, 1001_1@bk.ru, kuhnya1001i1@yandex.ru", $theme, "Имя: ".$name.". Телефон: " . $tel );
 			
 			
-			// $to      = 'vasilyev-r@mail.ru, vasilyev-r@yandex.ru, 1001_1@bk.ru';
-			$to      = 'sidorov-vv3@mail.ru';
+			$to      = 'vasilyev-r@mail.ru, vasilyev-r@yandex.ru, 1001_1@bk.ru';
+			// $to      = 'sidorov-vv3@mail.ru';
 			$subject = $theme;
 			$message = "Имя: ".$name.". Телефон: " . $tel;
 			$headers = "From: info@1001i1kuhnya.ru\r\n";
