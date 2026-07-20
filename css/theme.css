@@ -399,7 +399,9 @@ header .parallax {
 }
 
 @media (max-width: 768px) {
-	.header-about-parallax {
+
+	.header-about-parallax,
+	.header-parallax {
 		background: url(../home-bg-mobile.jpg) center no-repeat;
 	}
 }
