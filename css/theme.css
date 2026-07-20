@@ -18,43 +18,44 @@ body {
 	position: relative;
 	top: -75px;
 }
+
 /*** END ALL ***/
 
 
 /*** FONTS ***/
 @font-face {
-    font-family: HelveticaNeueCyr-Thin;
-    src: url(../fonts/Helvetica/HelveticaNeueCyr-Thin.ttf);
+	font-family: HelveticaNeueCyr-Thin;
+	src: url(../fonts/Helvetica/HelveticaNeueCyr-Thin.ttf);
 }
 
 @font-face {
-    font-family: HelveticaNeueCyr-Light;
-    src: url(../fonts/Helvetica/HelveticaNeueCyr-Light.ttf);
+	font-family: HelveticaNeueCyr-Light;
+	src: url(../fonts/Helvetica/HelveticaNeueCyr-Light.ttf);
 }
 
 @font-face {
-    font-family: HelveticaNeueCyr-Medium;
-    src: url(../fonts/Helvetica/HelveticaNeueCyr-Medium.ttf);
+	font-family: HelveticaNeueCyr-Medium;
+	src: url(../fonts/Helvetica/HelveticaNeueCyr-Medium.ttf);
 }
 
 @font-face {
-    font-family: HelveticaNeueCyr-Roman;
-    src: url(../fonts/Helvetica/HelveticaNeueCyr-Roman.ttf);
+	font-family: HelveticaNeueCyr-Roman;
+	src: url(../fonts/Helvetica/HelveticaNeueCyr-Roman.ttf);
 }
 
 @font-face {
-    font-family: HelveticaNeueCyr-Bold;
-    src: url(../fonts/Helvetica/HelveticaNeueCyr-Bold.ttf);
+	font-family: HelveticaNeueCyr-Bold;
+	src: url(../fonts/Helvetica/HelveticaNeueCyr-Bold.ttf);
 }
 
 @font-face {
-    font-family: Gilroy-Bold;
-    src: url(../fonts/Gilroy/Gilroy-Bold.ttf);
+	font-family: Gilroy-Bold;
+	src: url(../fonts/Gilroy/Gilroy-Bold.ttf);
 }
 
 @font-face {
-    font-family: Gilroy-Black;
-    src: url(../fonts/Gilroy/Gilroy-Black.ttf);
+	font-family: Gilroy-Black;
+	src: url(../fonts/Gilroy/Gilroy-Black.ttf);
 }
 
 h1 {
@@ -87,8 +88,8 @@ h5 {
 
 .section-subtitle {
 	color: #323232;
-    font-family: HelveticaNeueCyr-Light;
-    font-size: 22px;
+	font-family: HelveticaNeueCyr-Light;
+	font-size: 22px;
 }
 
 .section-description {
@@ -139,85 +140,88 @@ a {
 a:hover {
 	color: var(--corporate-color-1);
 }
+
 /*** END FONTS ***/
 
 
 /*** BUTTONS ***/
 .btn-lg {
-    line-height: 2;
+	line-height: 2;
 }
 
 .btn-corporation-orange {
 	color: #ffffff;
-    background-color: #f49100;
-    border-color: #f49100;
+	background-color: #f49100;
+	border-color: #f49100;
 	font-family: HelveticaNeueCyr-Roman;
-    font-size: 16px;
+	font-size: 16px;
 	/*height: 40px;*/
 }
 
 .btn-corporation-orange:hover {
-    color: #ffffff;
-    background-color: #d17c00;
-    border-color: #d17c00;
+	color: #ffffff;
+	background-color: #d17c00;
+	border-color: #d17c00;
 }
 
 .btn-corporation-orange:active {
-    color: #ffffff;
-    background-color: #b16a01;
-    border-color: #b16a01;
+	color: #ffffff;
+	background-color: #b16a01;
+	border-color: #b16a01;
 }
 
 .btn-corporation-orange:focus {
-	box-shadow: 0 0 1px 3px rgba(209,124,0,.5);
+	box-shadow: 0 0 1px 3px rgba(209, 124, 0, .5);
 }
 
 .btn-corporate-color-1-outline {
-    color: #f49100;
-    background-color: none;
-    border-color: #f49100;
+	color: #f49100;
+	background-color: none;
+	border-color: #f49100;
 	font-family: HelveticaNeueCyr-Roman;
 	font-size: 16px;
 }
 
 .btn-corporate-color-1-outline:hover {
-    color: #ffff;
-    background-color: #f49100;
-    border-color: #f49100;
+	color: #ffff;
+	background-color: #f49100;
+	border-color: #f49100;
 	font-family: HelveticaNeueCyr-Roman;
 	font-size: 16px;
 }
 
 /**/
 .btn-corporate-color-1-outline:active {
-    background-color: #d17c00;
+	background-color: #d17c00;
 }
 
 .btn-corporate-color-1-outline:focus {
-    box-shadow: 0 0 1px 3px rgba(209,124,0,.5);
+	box-shadow: 0 0 1px 3px rgba(209, 124, 0, .5);
 }
+
 /*** BUTTONS ***/
 
 
 
 /*** NAV SCROLLER ***/
 .nav-scroller {
-    position: relative;
-    z-index: 2;
-    /* height: 2.75rem; */
-    overflow-y: hidden;
+	position: relative;
+	z-index: 2;
+	/* height: 2.75rem; */
+	overflow-y: hidden;
 }
 
 .nav-scroller .nav {
-    display: flex;
-    flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    margin-top: -1px;
-    overflow-x: auto;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
+	display: flex;
+	flex-wrap: nowrap;
+	padding-bottom: 1rem;
+	margin-top: -1px;
+	overflow-x: auto;
+	text-align: center;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
 }
+
 /*** END NAV SCROLLER ***/
 
 
@@ -258,11 +262,11 @@ a:hover {
 	font-size: .85rem;
 	font-weight: 500;
 	text-transform: uppercase;
-	color: rgba(38,19,109,.75);
+	color: rgba(38, 19, 109, .75);
 }
 
 #top-menu .nav-link:hover {
-	color: rgba(38,19,109,1);
+	color: rgba(38, 19, 109, 1);
 }
 
 #top-menu .nav-link.active {
@@ -286,6 +290,7 @@ a:hover {
 #navbarSupportedContent2 .nav-link:hover {
 	color: #ff5200;
 }
+
 /*** END MENU ***/
 
 
@@ -298,7 +303,7 @@ header {
 }
 
 /* Высота header */
-header > .container > .row {
+header>.container>.row {
 	min-height: 600px;
 }
 
@@ -312,7 +317,9 @@ header .parallax {
 	background-size: cover;
 	z-index: -1;
 	display: block;
-} /* End Header parallax */
+}
+
+/* End Header parallax */
 
 .parallax-2 {
 	min-height: 100vh;
@@ -390,6 +397,13 @@ header .parallax {
 	top: -200px;
 	background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) {
+	.header-about-parallax {
+		background: url(../home-bg-mobile.jpg) center no-repeat;
+	}
+}
+
 /*** END HEADERS ***/
 
 
@@ -413,6 +427,7 @@ header .parallax {
 	object-fit: cover;
 	object-position: cover;
 }
+
 /* END MANUFACTURE SECTION */
 
 
@@ -421,6 +436,7 @@ header .parallax {
 .about-section li {
 	font-size: 20px;
 }
+
 /*** END ABOUT SECTION ***/
 
 
@@ -431,49 +447,51 @@ header .parallax {
 	width: 100%;
 	height: 204px;
 	border-radius: var(--border-radius);
-	overflow: hidden; }
-	
-	@media (max-width: 1399.98px) {
-		.slider-section-1 .light {
-			height: 450px;
-		}
+	overflow: hidden;
+}
+
+@media (max-width: 1399.98px) {
+	.slider-section-1 .light {
+		height: 450px;
 	}
-	
-	@media (max-width: 767.98px) {
-		.slider-section-1 .light {
-			height: 325px;
-		}
+}
+
+@media (max-width: 767.98px) {
+	.slider-section-1 .light {
+		height: 325px;
 	}
-	
-	@media (max-width: 575.98px) {
-		.slider-section-1 .light {
-			height: 250px;
-		}
+}
+
+@media (max-width: 575.98px) {
+	.slider-section-1 .light {
+		height: 250px;
 	}
-	
+}
+
 .slider-section-1 .light img {
-    width: 100%;
-    height: 100%;
-    o-object-fit: cover;
-    object-fit: cover;
-    object-position: center;
+	width: 100%;
+	height: 100%;
+	o-object-fit: cover;
+	object-fit: cover;
+	object-position: center;
 }
 
 .slider-section-1 .magnifier {
-    transition: 0.35s;
-    opacity: 0;
-    position: absolute;
-    background: url(../img/ico/private-eye-magnifying-glass.png) no-repeat center;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+	transition: 0.35s;
+	opacity: 0;
+	position: absolute;
+	background: url(../img/ico/private-eye-magnifying-glass.png) no-repeat center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 .slider-section-1 .magnifier:hover {
-    cursor: pointer;
-    opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
+
 /*** END SLIDER SECTION 1 ***/
 
 
@@ -503,41 +521,41 @@ header .parallax {
 }
 
 .single-product-img.approximation {
-    height: 450px;
+	height: 450px;
 }
 
 .single-product .approximation img {
-    width: 100%;
-    height: 100%;
-    transition: .3s all ease;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    o-object-fit: cover;
-    object-fit: cover;
-    object-position: center;
+	width: 100%;
+	height: 100%;
+	transition: .3s all ease;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	o-object-fit: cover;
+	object-fit: cover;
+	object-position: center;
 }
 
 .single-product .approximation:hover img {
 	-webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .single-product .magnifier:hover {
-    cursor: pointer;
-    opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
 
 .single-product .magnifier {
-    transition: 0.35s;
-    opacity: 0;
-    position: absolute;
-    background: url(../images/icons/private-eye-magnifying-glass.png) no-repeat center;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+	transition: 0.35s;
+	opacity: 0;
+	position: absolute;
+	background: url(../images/icons/private-eye-magnifying-glass.png) no-repeat center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 
@@ -561,57 +579,58 @@ header .parallax {
 	line-height: 125%;
 	/*display: block;*/
 }
+
 /*** END SECTION SINGLE PRODUCT ***/
 
 
 
 /*** SALE SECTION ***/
 .sale-section .approximation {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
 	background: #f8e3cb;
 	border-color: red;
 }
 
 .sale-section .approximation.approximation-lg {
-    height: 400px;
+	height: 400px;
 }
 
 .sale-section .approximation img {
-    width: 100%;
-    height: 100%;
-    transition: .3s all ease;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    o-object-fit: contain;
-    object-fit: contain;
-    object-position: center;
+	width: 100%;
+	height: 100%;
+	transition: .3s all ease;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	o-object-fit: contain;
+	object-fit: contain;
+	object-position: center;
 	border-color: red;
 }
 
 .sale-section .approximation:hover img {
 	-webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .sale-section .card-wrapper {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    top: 0;
-    right: 0;
-	background: rgba(0,0,0,.125);
-    cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgba(0, 0, 0, .125);
+	cursor: pointer;
 	border-color: red;
 	transition: .35s;
 }
 
 .sale-section .card-wrapper:hover {
-	background: rgba(0,0,0,0);
+	background: rgba(0, 0, 0, 0);
 }
 
 .sale-section .card-wrapper h2 {
@@ -619,10 +638,10 @@ header .parallax {
 	font-size: 28px;
 	color: #ffffff;
 	position: absolute;
-    bottom: 0;
-    left: 0;
-    padding-left: 25px;
-    padding-bottom: 20px;
+	bottom: 0;
+	left: 0;
+	padding-left: 25px;
+	padding-bottom: 20px;
 }
 
 .flag {
@@ -637,7 +656,7 @@ header .parallax {
 	position: relative;
 	-webkit-clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%);
-	
+
 	position: absolute;
 	z-index: 999;
 	left: 0;
@@ -661,6 +680,7 @@ header .parallax {
 	color: #ffffff;
 	line-height: 26px;
 }
+
 /*** END SALE SECTION ***/
 
 
@@ -684,19 +704,21 @@ header .parallax {
 	object-fit: cover;
 	object-position: cover;
 }
+
 /*** END ARCHIVE PORTFOLIO SECTION ***/
 
 
 /*** MAGNIFIER ***/
 .magnifier {
-    transition: 0.35s;
-    opacity: 0;
+	transition: 0.35s;
+	opacity: 0;
 }
 
 .magnifier:hover {
-    cursor: pointer;
-    opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
+
 /*** END MAGNIFIER ***/
 
 
@@ -725,8 +747,8 @@ header .parallax {
 	height: 100%;
 	transition: .3s all ease;
 	-webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
 	o-object-fit: cover;
 	object-fit: cover;
 	object-position: center;
@@ -734,8 +756,8 @@ header .parallax {
 
 .archive-products-section .approximation:hover img {
 	-webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .archive-products-section .card-wrapper {
@@ -744,7 +766,7 @@ header .parallax {
 	left: 0;
 	top: 0;
 	right: 0;
-	background: rgba(0,0,0,.25);
+	background: rgba(0, 0, 0, .25);
 	cursor: pointer;
 }
 
@@ -762,13 +784,13 @@ header .parallax {
 .woocommerce-loop-product__price,
 .card-wrapper span.price {
 	position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 20px;
-    padding-top: 15px;
+	top: 0;
+	left: 0;
+	padding-left: 20px;
+	padding-top: 15px;
 	font-family: HelveticaNeueCyr-Bold;
-    font-size: 20px;
-    color: white;
+	font-size: 20px;
+	color: white;
 }
 
 ins {
@@ -812,17 +834,19 @@ ins {
 /* Archive product section pagination */
 .page-link {
 	color: var(--corporate-color-1);
-	border-color: rgba(244,146,0,.25);
-	background-color: rgba(244,146,0,0);
+	border-color: rgba(244, 146, 0, .25);
+	background-color: rgba(244, 146, 0, 0);
 }
 
 .page-link:hover,
 .pagination .page-link.current {
 	color: var(--corporate-color-1);
-	border-color: rgba(244,146,0,.25);
-	background-color: rgba(244,146,0,.125);
-} /* End archive product section pagination */ */
+	border-color: rgba(244, 146, 0, .25);
+	background-color: rgba(244, 146, 0, .125);
+}
 
+/* End archive product section pagination */
+*/
 
 /* Archive product section wijet */
 ul.product-categories {
@@ -830,16 +854,18 @@ ul.product-categories {
 	list-style: none;
 }
 
-h4, .widget-title {
-    font-family: HelveticaNeueCyr-Bold;
-    color: #4b4b4b;
-    font-size: 14px;
-    margin-bottom: 5px;
-    display: block;
-    text-transform: uppercase;
+h4,
+.widget-title {
+	font-family: HelveticaNeueCyr-Bold;
+	color: #4b4b4b;
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: block;
+	text-transform: uppercase;
 }
 
-.form-check-label, .cat-item a,
+.form-check-label,
+.cat-item a,
 .woocommerce-widget-layered-nav-list__item.wc-layered-nav-term a {
 	font-family: HelveticaNeueCyr-Roman;
 	color: #323232;
@@ -873,61 +899,64 @@ h4, .widget-title {
 	content: '';
 	display: inline-block;
 	width: 18px;
-    height: 18px;
-    border: 1px solid #dddddd;
+	height: 18px;
+	border: 1px solid #dddddd;
 	margin-right: 8px;
 	position: relative;
 	top: 3px;
-	
+
 }
 
 .woocommerce-widget-layered-nav-list__item.wc-layered-nav-term a:focus:after,
 .woocommerce-widget-layered-nav-list__item.wc-layered-nav-term.woocommerce-widget-layered-nav-list__item--chosen.chosen a:after {
 	content: '';
 	display: inline-block;
-    width: 10px;
-    height: 10px;
+	width: 10px;
+	height: 10px;
 	background-color: #f49100;
 	margin-right: 8px;
 	position: absolute;
 	left: 4px;
-    top: 7px;
+	top: 7px;
 }
 
 .woocommerce-widget-layered-nav-list__item.wc-layered-nav-term.woocommerce-widget-layered-nav-list__item--chosen.chosen a:focus:after,
 .woocommerce-widget-layered-nav-list__item.wc-layered-nav-term.woocommerce-widget-layered-nav-list__item--chosen.chosen a:active:after {
 	opacity: 0;
 }
+
 /* End archive product section wijet */
 
 
 .screen-reader-text {
 	display: none;
 }
+
 /*** END ARCHIVE PRODUCTS SECTION ***/
 
 
 /*** Bread crumbs ***/
 .breadcrumbs {
-    color: #646464;
+	color: #646464;
 }
 
 .breadcrumbs img {
-    position: relative;
-    bottom: 3px;
-    transition: .25s;
+	position: relative;
+	bottom: 3px;
+	transition: .25s;
 }
 
 .breadcrumbs a {
-    text-decoration: none;
+	text-decoration: none;
 	color: #646464;
 	transition: .25s;
 }
 
 .breadcrumbs a:hover {
-    text-decoration: none;
+	text-decoration: none;
 	color: #f49100;
 }
+
 /*** End bread crumbs ***/
 
 
@@ -942,6 +971,7 @@ h4, .widget-title {
 	right: -10px;
 	width: 90px;
 }
+
 /* /Whatsapp button */
 
 
@@ -954,6 +984,7 @@ h4, .widget-title {
 .action-4-section p strong {
 	color: #f49100;
 }
+
 /*** END ACTION 4 SECTION ***/
 
 
@@ -969,7 +1000,7 @@ h4, .widget-title {
 
 #messengers-2-button {
 	background: url(images/icons/messenger.png) center;
-	background-size: contain; 
+	background-size: contain;
 	position: absolute;
 	background-color: #00a9ec;
 	width: 70px;
@@ -1023,6 +1054,7 @@ h4, .widget-title {
 #messenger-3 img:hover {
 	opacity: 1;
 }
+
 /***** End messenger 2 *****/
 
 
@@ -1053,12 +1085,15 @@ h4, .widget-title {
 
 @keyframes waves {
 	0% {
-		box-shadow: 0 0 0 0 rgba(255,82,0,.3), 0 0 0 0 rgba(255,82,0,.3), 0 0 8px 0 rgba(0,0,0,.5);
+		box-shadow: 0 0 0 0 rgba(255, 82, 0, .3), 0 0 0 0 rgba(255, 82, 0, .3), 0 0 8px 0 rgba(0, 0, 0, .5);
 	}
-	50% { box-shadow: 0 0 0 0 rgba(255,82,0,.15), 0 0 0 15px rgba(255,82,0,.15), 0 0 8px 0 rgba(0,0,0,.5);
+
+	50% {
+		box-shadow: 0 0 0 0 rgba(255, 82, 0, .15), 0 0 0 15px rgba(255, 82, 0, .15), 0 0 8px 0 rgba(0, 0, 0, .5);
 	}
+
 	100% {
-		box-shadow: 0 0 0 20px rgba(255,82,0,0), 0 0 0 30px rgba(255,82,0,0), 0 0 8px 0 rgba(0,0,0,.5);
+		box-shadow: 0 0 0 20px rgba(255, 82, 0, 0), 0 0 0 30px rgba(255, 82, 0, 0), 0 0 8px 0 rgba(0, 0, 0, .5);
 	}
 }
 
@@ -1083,278 +1118,298 @@ h4, .widget-title {
 }
 
 @keyframes change {
-    0% {
-        background-image: url(../img/ico/callback-button-ico.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-        opacity: 0;
-    }
-    1% {
-        background-image: url(../img/ico/callback-button-ico.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-        opacity: 1;
-    }
-    19% {
-        background-image: url(../img/ico/callback-button-ico.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-        opacity: 1;
-    }
-    20% {
-        background-image: url(../img/ico/callback-button-ico.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        opacity: 0;
-    }
-    21% {
-        background-image: url(../img/ico/callback-phone-ico.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        opacity: 0;
-    }
-    22% {
-        background-image: url(../img/ico/callback-phone-ico.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        opacity: 1;
-    }
-    39% {
-        background-image: url(../img/ico/callback-phone-ico.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        opacity: 1;
-        transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-    }
-    40% {
-        background-image: url(../img/ico/callback-phone-ico.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        opacity: 0;
-    }
-    41% {
-        background-image: url(../img/ico/callback-whatsapp-ico.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        transform: rotate(0deg);
-        opacity: 0;
-    }
-    42% {
-        background-image: url(../img/ico/callback-whatsapp-ico.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        opacity: 1;
-        transform: rotate(360deg);
-    }
-    59% {
-        background-image: url(../img/ico/callback-whatsapp-ico.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        opacity: 1;
-        transform: rotate(360deg);
-    }
-    60% {
-        background-image: url(../img/ico/callback-whatsapp-ico.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        opacity: 0;
-    }
-    61% {
-        background-image: url(../img/ico/callback-telegram-ico.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        opacity: 0;
-    }
-    62% {
-        background-image: url(../img/ico/callback-telegram-ico.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-        opacity: 1;
-    }
-    79% {
-        background-image: url(../img/ico/callback-telegram-ico.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-        opacity: 1;
-    }
-    80% {
-        background-image: url(../img/ico/callback-telegram-ico.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        opacity: 0;
-    }
-    81% {
-        background-image: url(../img/ico/callback-max-ico.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        opacity: 0;
-    }
-    82% {
-        background-image: url(../img/ico/callback-max-ico.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-        opacity: 1;
-    }
-    99% {
-        background-image: url(../img/ico/callback-max-ico.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        opacity: 1;
-        transform: rotate(360deg);
-    }
-    100% {
-        background-image: url(../img/ico/callback-max-ico.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        opacity: 0;
-    }
+	0% {
+		background-image: url(../img/ico/callback-button-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+
+	1% {
+		background-image: url(../img/ico/callback-button-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		opacity: 1;
+	}
+
+	19% {
+		background-image: url(../img/ico/callback-button-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		opacity: 1;
+	}
+
+	20% {
+		background-image: url(../img/ico/callback-button-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		opacity: 0;
+	}
+
+	21% {
+		background-image: url(../img/ico/callback-phone-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		opacity: 0;
+	}
+
+	22% {
+		background-image: url(../img/ico/callback-phone-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		opacity: 1;
+	}
+
+	39% {
+		background-image: url(../img/ico/callback-phone-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		opacity: 1;
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+	}
+
+	40% {
+		background-image: url(../img/ico/callback-phone-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		opacity: 0;
+	}
+
+	41% {
+		background-image: url(../img/ico/callback-whatsapp-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+
+	42% {
+		background-image: url(../img/ico/callback-whatsapp-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		opacity: 1;
+		transform: rotate(360deg);
+	}
+
+	59% {
+		background-image: url(../img/ico/callback-whatsapp-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		opacity: 1;
+		transform: rotate(360deg);
+	}
+
+	60% {
+		background-image: url(../img/ico/callback-whatsapp-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+
+	61% {
+		background-image: url(../img/ico/callback-telegram-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+
+	62% {
+		background-image: url(../img/ico/callback-telegram-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		opacity: 1;
+	}
+
+	79% {
+		background-image: url(../img/ico/callback-telegram-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		opacity: 1;
+	}
+
+	80% {
+		background-image: url(../img/ico/callback-telegram-ico.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+
+	81% {
+		background-image: url(../img/ico/callback-max-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+
+	82% {
+		background-image: url(../img/ico/callback-max-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		opacity: 1;
+	}
+
+	99% {
+		background-image: url(../img/ico/callback-max-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		opacity: 1;
+		transform: rotate(360deg);
+	}
+
+	100% {
+		background-image: url(../img/ico/callback-max-ico.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		opacity: 0;
+	}
 }
 
 @keyframes change2 {
-    0% {
-        background-image: url(../img/ico/callback-button-close.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        transform: rotate(0deg);
-        opacity: 0;
-    }
-    50% {
-        background-image: url(../img/ico/callback-button-close.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        transform: rotate(180deg);
-        opacity: 1;
-    }
+	0% {
+		background-image: url(../img/ico/callback-button-close.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+
+	50% {
+		background-image: url(../img/ico/callback-button-close.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		transform: rotate(180deg);
+		opacity: 1;
+	}
 }
 
 .callback-form-button {
@@ -1371,12 +1426,12 @@ h4, .widget-title {
 	z-index: 1;
 	transition: .25s;
 }
-	
+
 .callback-form-button:hover {
 	background: #d64906;
 }
-	
-.callback-form-button-ico{
+
+.callback-form-button-ico {
 	width: 30px;
 	height: 30px;
 	filter: invert();
@@ -1401,23 +1456,23 @@ h4, .widget-title {
 	z-index: 1;
 	transition: .25s;
 }
-	
+
 .callback-phone-button:hover {
-	background:#d64906
+	background: #d64906
 }
 
-.callback-phone-button-ico{
-	width:30px;
-	height:30px;
-	filter:invert();
-	background:url(../images/icons/callback-phone-ico.svg) center no-repeat;
-	background-size:contain;
-	-moz-background-size:contain;
-	-webkit-background-size:contain;
+.callback-phone-button-ico {
+	width: 30px;
+	height: 30px;
+	filter: invert();
+	background: url(../images/icons/callback-phone-ico.svg) center no-repeat;
+	background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
 	-o-background-size: contain;
 }
 
-.callback-whatsapp-button{
+.callback-whatsapp-button {
 	width: 50px;
 	height: 50px;
 	background: #ff5200;
@@ -1436,7 +1491,7 @@ h4, .widget-title {
 	background: #d64906;
 }
 
-.callback-whatsapp-button-ico{
+.callback-whatsapp-button-ico {
 	width: 30px;
 	height: 30px;
 	filter: invert();
@@ -1454,7 +1509,7 @@ h4, .widget-title {
 	border-radius: 50%;
 	cursor: pointer;
 	padding-top: 10px;
-	padding-left:10px;
+	padding-left: 10px;
 	position: absolute;
 	left: 10px;
 	top: 10px;
@@ -1466,46 +1521,47 @@ h4, .widget-title {
 	background: #d64906;
 }
 
-.callback-telegram-button-ico{
+.callback-telegram-button-ico {
 	width: 30px;
-	height:30px;
+	height: 30px;
 	filter: invert();
 	background: url(../images/icons/callback-telegram-ico.svg) center no-repeat;
 	background-size: contain;
 	-moz-background-size: contain;
 	-webkit-background-size: contain;
-	-o-background-size :contain;
+	-o-background-size: contain;
 }
 
 .callback-max-button {
-    width: 50px;
-    height: 50px;
-    background:#ff5200;
-    border-radius: 50%;
-    cursor: pointer;
-    padding-top: 10px;
-    padding-left: 10px;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    z-index: 1;
-    transition: 0.25s;
+	width: 50px;
+	height: 50px;
+	background: #ff5200;
+	border-radius: 50%;
+	cursor: pointer;
+	padding-top: 10px;
+	padding-left: 10px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 1;
+	transition: 0.25s;
 }
 
 .callback-max-button:hover {
-    background: #d64906;
+	background: #d64906;
 }
 
 .callback-max-button-ico {
-    width: 30px;
-    height: 30px;
-    filter: invert();
-    background: url(../img/ico/callback-max-ico.png) center no-repeat;
-    background-size: contain;
-    -moz-background-size: contain;
-    -webkit-background-size: contain;
-    -o-background-size: contain;
+	width: 30px;
+	height: 30px;
+	filter: invert();
+	background: url(../img/ico/callback-max-ico.png) center no-repeat;
+	background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
 }
+
 /*** CALLBACK BUTTON ***/
 
 
@@ -1522,7 +1578,7 @@ h4, .widget-title {
 	cursor: pointer;
 }
 
-/* Сообщение об успешной отправке данных */	
+/* Сообщение об успешной отправке данных */
 #message {
 	z-index: 9999;
 	max-width: 450px;
@@ -1541,146 +1597,154 @@ h4, .widget-title {
 	body {
 		/* padding-top: 50px; */
 	}
-	
+
 	h1 {
 		font-size: 2rem;
 	}
-	
+
 	header h2 {
 		font-size: 1.5rem;
 	}
-	
+
 	.home-subtitle,
 	.header-subtitle {
 		font-size: 22px;
 		text-align: left;
 	}
-	
+
 	.navbar-brand img {
 		height: 50px;
 	}
-	
+
 	.quiz-title {
 		font-size: 1rem;
 	}
-	
+
 	.quiz-content {
 		min-height: auto;
 	}
-	
+
 	/*** SHKAFY CUPE SECTIONS ***/
 	/*
 	.shkafy-cupe-header .parallax-2 {
 		min-height: 200vh;
 		background: url(images/shkafy-cupe-header-parallax.webp) 100% 25% no-repeat;
 	}*/
-	
+
 	.shkafy-cupe-header .header-description {
 		color: #ffffff;
 		font-family: HelveticaNeueCyr-Light;
 		font-size: 22px;
 	}
+
 	/*** END SHKAFY CUPE SECTIONS ***/
-	
-	
+
+
 	/* SINGLE PRODUCT SECTION */
 	.single-product-img.approximation {
 		height: 250px;
 	}
+
 	/* END SINGLE PRODUCT SECTION */
-	
-	
+
+
 	/*** SHKAF CUPE PORTFOLIO ***/
 	#carouselShkafCupePortfolio img {
 		height: 350px;
 	}
+
 	/*** END SHKAF CUPE PORTFOLIO ***/
-	
-	
+
+
 	/* ARCHIVE PRODUCTS */
 	.approximation {
 		height: 250px;
 	}
+
 	/* END ARCHIVE PRODUCTS */
-	
+
 	#homePagePortfolio .carousel-inner {
 		padding: inherit;
 	}
-	
+
 	#homePagePortfolio .carousel-item {
 		height: 375px;
 		text-align: center;
 		line-height: 370px;
 	}
-	
+
 	/* Whatsapp button*/
-	.whatsapp { display: block; }
-	
+	.whatsapp {
+		display: block;
+	}
+
 	/* Messenger 2 */
 	.messengers-2 {
 		display: block;
 	}
-	
+
 }
 
 
 @media (max-width: 767.98px) {
+
 	/*** HEADERS ***/
 	.parallax-2 {
 		top: 50px;
 	}
-	
+
 	.header-parallax {
 		top: 0px;
 	}
-	
+
 	.header-archive-products,
 	.header-archive-kitchens {
 		background-position: 22% 50%;
 	}
-	
+
 	.header-archive-closets {
 		background-position: 40% 50%;
 	}
-	
+
 	.home-archive-cabinets {
 		background-position: 50% 50%;
 	}
-	
+
 	.home-archive-checkrooms {
 		background-position: 50% 50%;
 	}
-	
+
 	.header-archive-kitchen-corners {
 		background-position: 50% 50%;
 	}
-	
+
 	.header-archive-lunch-groups {
 		background-position: 45% 50%;
 	}
-	
+
 	.header-archive-bedrooms {
 		background-position: 50% 50%;
 	}
-	
+
 	.header-archive-hallways {
 		background-position: 55% 50%;
 	}
-	
+
 	.header-archive-living-rooms {
 		background-position: 66% 50%;
 	}
-	
+
 	.header-archive-childrens {
 		background-position: 35% 50%;
 	}
-	
+
 	.header-about-parallax {
 		top: -100px;
 	}
+
 	/*** END HEADERS ***/
-	
-	
+
+
 	/*** MANUFACTURE SECTION ***/
 	.manufacture-section-img {
 		width: 100%;
@@ -1693,16 +1757,17 @@ h4, .widget-title {
 		object-position: cover;
 		height: 250px;
 	}
-	
+
 	#carouselExampleIndicators2 .carousel-item {
 		text-align: center;
 		height: 520px;
 		line-height: 270px;
 	}
-	
+
 	#carouselExampleIndicators2 .carousel-item img {
 		vertical-align: middle;
 	}
+
 	/*** END MANUFACTURE SECTION ***/
 }
 
@@ -1721,61 +1786,62 @@ h4, .widget-title {
 
 /*** NEW YEAR ***/
 a.custom-logo-link.new-year {
-    position: relative;
+	position: relative;
 }
 
 
 a.custom-logo-link.new-year:before {
-    content: '';
-    background: url(../img/new-year/new-year-cap.png) no-repeat;
-    width: 40px;
-    height: 40px;
-    z-index: 9999;
-    position: absolute;
-    background-size: contain;
-    right: -20px;
-    bottom: 5px;
-    transform: scaleX(-1);
-    rotate: 30deg;
+	content: '';
+	background: url(../img/new-year/new-year-cap.png) no-repeat;
+	width: 40px;
+	height: 40px;
+	z-index: 9999;
+	position: absolute;
+	background-size: contain;
+	right: -20px;
+	bottom: 5px;
+	transform: scaleX(-1);
+	rotate: 30deg;
 }
 
 
 #top-menu a.custom-logo-link.new-year:before {
-    transition: all 0.2s ease;
+	transition: all 0.2s ease;
 }
 
 /* при скролле */
 #top-menu.header--small a.custom-logo-link.new-year:before {
-    width: 22px;
-    height: 22px;
-    right: -10px;
-    bottom: 15px;
+	width: 22px;
+	height: 22px;
+	right: -10px;
+	bottom: 15px;
 }
 
 
 a.custom-logo-link.new-year img {
-    margin-top: auto;
+	margin-top: auto;
 }
 
 body.b-new-year {
-    position: relative;
+	position: relative;
 }
 
 body.b-new-year:before {
-    position: fixed;
-    background: url(../img/new-year/new-year-footer-banner.png) repeat-x;
-    content: '';
-    width: 100%;
-    height: 100px;
-    bottom: 0;
-    left: 0;
-    z-index: 3;
-    background-size: contain;
+	position: fixed;
+	background: url(../img/new-year/new-year-footer-banner.png) repeat-x;
+	content: '';
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	left: 0;
+	z-index: 3;
+	background-size: contain;
 }
 
 @media (max-width: 1300px) {
-    body.b-new-year:before {
+	body.b-new-year:before {
 		background-size: cover;
 	}
 }
+
 /*** END NEW YEAR ***/
