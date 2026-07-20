@@ -27,10 +27,14 @@
 	$mail .= "Материал фасада: ".$answer4."\n\n";
 
 	/* Send mails */
-	
+
+	$headers = "From: info@1001i1kuhnya.ru\r\n";
+	$headers .= "Reply-To: info@1001i1kuhnya.ru\r\n";
+	$headers .= "Return-Path: info@1001i1kuhnya.ru\r\n";
+
 	// mail( "sidorov-vv3@mail.ru", "Заявка на расчет шкафа-купе с сайта 1001i1kuhnya.ru", $mail );
-	mail( "1001_1@bk.ru", "Заявка на расчет шкафа-купе с сайта 1001i1kuhnya.ru", $mail );
-	mail( "vasilyev-r@mail.ru", "Заявка на расчет шкафа-купе с сайта 1001i1kuhnya.ru", $mail );
+	mail( "1001_1@bk.ru", "Заявка на расчет шкафа-купе с сайта 1001i1kuhnya.ru", $mail, $headers );
+	mail( "vasilyev-r@mail.ru", "Заявка на расчет шкафа-купе с сайта 1001i1kuhnya.ru", $mail, $headers );
 
 	$_SESSION['win'] = 1;
 	$_SESSION['recaptcha'] = '<p>Спасибо, что Вы обратились именно к нам. Мы свяжемся с Вами в ближайшее время.</p>';

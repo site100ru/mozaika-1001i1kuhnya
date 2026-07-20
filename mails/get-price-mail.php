@@ -16,13 +16,16 @@
 		// Если вероятность робота более 0.5, то считаем отправителя человеком и выполняем отправку почты
 		if( $Return->success == true && $Return->score > .25 ){
 			
-			$name = $_POST['name'];	
-			$tel = $_POST['tel'];	
-			
-			
+			$name = $_POST['name'];
+			$tel = $_POST['tel'];
+
+			$headers = "From: info@1001i1kuhnya.ru\r\n";
+			$headers .= "Reply-To: info@1001i1kuhnya.ru\r\n";
+			$headers .= "Return-Path: info@1001i1kuhnya.ru\r\n";
+
 			// mail( "sidorov-vv3@mail.ru", "Заявка с сайта 1001i1kuhnya.ru. Узнать стоимость.", "Имя: ".$name.". Телефон: " . $tel );
-			mail( "vasilyev-r@mail.ru, vasilyev-r@yandex.ru, 1001_1@bk.ru", "Заявка с сайта 1001i1kuhnya.ru. Узнать стоимость.", "Имя: ".$name.". Телефон: " . $tel );
-			mail( "1001_1@bk.ru", "Заявка с сайта 1001i1kuhnya.ru. Узнать стоимость.", "Имя: ".$name.". Телефон: " . $tel );
+			mail( "vasilyev-r@mail.ru, vasilyev-r@yandex.ru, 1001_1@bk.ru", "Заявка с сайта 1001i1kuhnya.ru. Узнать стоимость.", "Имя: ".$name.". Телефон: " . $tel, $headers );
+			mail( "1001_1@bk.ru", "Заявка с сайта 1001i1kuhnya.ru. Узнать стоимость.", "Имя: ".$name.". Телефон: " . $tel, $headers );
 			
 			$_SESSION['win'] = 1;
 			$_SESSION['recaptcha'] = '<p class="text-light">Спасибо, что Вы обратились именно к нам. Мы свяжемся с Вами в ближайшее время.</p>';
